@@ -45,7 +45,7 @@ function loadPartial($name) {
 }
 
 /**
- * Inspect a value(s)
+ * Inspect value(s)
  * 
  * @param mixed $value
  * @return void
@@ -57,7 +57,7 @@ function inspect($value) {
 }
 
 /**
- * Inspect a value(s) and die()
+ * Inspect value(s) and die()
  * 
  * @param mixed $value
  * @return void
