@@ -1,0 +1,16 @@
+{
+  "name": "sitesbyally/workopia-php",
+  "description": "Job listing application",
+  "authors": [
+    {
+      "name": "Ally Weatherall",
+      "email": "ally@sitesbyally.ca"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
