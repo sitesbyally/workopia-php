@@ -6,6 +6,7 @@ $router->get('/', 'HomeController@index');
 $router->get('/listings', 'ListingController@index');
 $router->get('/listings/create', 'ListingController@create', ['auth']);
 $router->get('/listings/edit/{id}', 'ListingController@edit', ['auth']);
+$router->get('/listings/search', 'ListingController@search');
 $router->get('/listings/{id}', 'ListingController@show'); // keep this one last so it doesn't try to match edit or create with id
 
 $router->post('/listings', 'ListingController@store', ['auth']);
